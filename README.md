@@ -10,7 +10,7 @@ If you have `~/bin` or similar on your path, you can do
 
 ```bash
 curl -s https://raw.githubusercontent.com/BinaryMuse/bump-package-dep/master/bump-package-dep.sh -o ~/bin/bump-package-dep
-chmod +x bump-package-dep
+chmod +x ~/bin/bump-package-dep
 ```
 
 If you want to install it to `/usr/local/bin`, you can run:
