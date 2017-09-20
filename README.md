@@ -2,6 +2,26 @@
 
 Automatically sets and commits appropriate versions of package dependencies for Atom based on current package.json values.
 
+## Installation
+
+Prerequisite: `jq` (https://stedolan.github.io/jq/) — Install it with Homebrew with `brew install jq`
+
+If you have `~/bin` or similar on your path, you can do
+
+```bash
+curl -s https://raw.githubusercontent.com/BinaryMuse/bump-package-dep/master/bump-package-dep.sh -o ~/bin/bump-package-dep
+chmod +x bump-package-dep
+```
+
+If you want to install it to `/usr/local/bin`, you can run:
+
+```bash
+curl https://raw.githubusercontent.com/BinaryMuse/bump-package-dep/master/bump-package-dep.sh -o /usr/local/bin/bump-package-dep
+chmod +x /usr/local/bin/bump-package-dep
+```
+
+(This assumes that you have write access to `/usr/local/bin`)
+
 ## Example
 
 Here, Atom is bundling tree-view v0.215.3, but we have v0.216.0 as the current version in tree-view's `package.json`:
