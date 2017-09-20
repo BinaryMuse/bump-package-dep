@@ -11,10 +11,8 @@ if [[ `git status --porcelain -- package.json` ]]; then
 fi
 
 
-pushd "$1" > /dev/null
-name=`jq -r .name package.json`
-version=`jq -r .version package.json`
-popd > /dev/null
+name=`jq -r .name "$1"/package.json`
+version=`jq -r .version "$1"/package.json`
 
 set -e
 
