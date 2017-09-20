@@ -4,7 +4,7 @@ Automatically sets and commits appropriate versions of package dependencies for 
 
 ## Installation
 
-Prerequisite: `jq` [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/) — Install it with Homebrew with `brew install jq`
+Prerequisite: `jq` ([https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)) — Install it with Homebrew with `brew install jq`
 
 If you have `~/bin` or similar on your path, you can do
 
